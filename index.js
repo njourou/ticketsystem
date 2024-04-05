@@ -8,15 +8,15 @@ const QRCode = require('qrcode');
 const fs = require('fs');
 require("dotenv").config();
 
-// Initialize Express app
+
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Define regular expression for email validation
+
 const emailRegex = /\S+@\S+\.\S+/;
 
-// Define events with their ticket options and prices
+
 const events = [
     { name: "Naivasha Rally", options: ["Early", "VIP", "VVIP"], prices: [250, 1000, 10000] },
     { name: "Sauti Sol", options: ["General", "VIP", "VVIP"], prices: [200, 800, 12000] },
