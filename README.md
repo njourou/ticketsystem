@@ -26,17 +26,8 @@ To install and run the TIKITI Ticketing System, follow these steps:
     npm install
     ```
 
-4. Create a `.env` file in the project root directory and add the following configuration:
+4. Create a `.env` file in the project root directory and add the configurationin .envexample:
 
-    ```
-  SMTP_HOST=""
-SMTP_PORT=""
-SMTP_USER=""
-SMTP_PASS=""
-CC_EMAIL=""
-RECIPIENT_EMAIL=""
-    
-    ```
 
     Replace  with your SMTP server credentials. This is required for sending confirmation emails.
 
