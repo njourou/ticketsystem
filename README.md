@@ -1,6 +1,4 @@
-Sure, here's a sample README file that provides instructions on how to install and use your application, along with adding the required `.env` file:
 
----
 
 # TIKITI Ticketing System
 
